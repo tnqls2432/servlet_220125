@@ -29,7 +29,6 @@ public class PostMethodEx05 extends HttpServlet {
 		out.print("<tr><th>이메일</th><td>" + email + "</td></tr>");
 		out.print("</table></body></html>");
 		
-		
 		out.print("</body></html>");
 		//주석 테스트
 	}

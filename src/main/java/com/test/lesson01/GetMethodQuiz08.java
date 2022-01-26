@@ -32,7 +32,7 @@ public class GetMethodQuiz08 extends HttpServlet {
 		
 
 		PrintWriter out = response.getWriter();
-		out.print("<html><head><title>검색 결과</title></head><body");
+		out.print("<html><head><title>검색 결과</title></head><body>");
 		
 		
 		Iterator<String> iter = list.iterator();
@@ -43,20 +43,34 @@ public class GetMethodQuiz08 extends HttpServlet {
 			}
 		
 			// 풀이1)
-			int index = line.indexOf(search);
-			if(index > -1) {
-				// 맛집  <b> 태그 추가  -> <b>맛집
-				StringBuffer sb = new StringBuffer();
-				sb.append(search);
-				sb.insert(index, "<b>");
-				sb.insert(index + search.length() + 3, "</b>"); // <b>맛집</b>
-				
-				out.print(sb + "<br>");
-			}
-		}
-		
-		out.print("</body></html>");
+//			int index = line.indexOf(search);
+//			if(index > -1) {
+//				// 맛집  <b> 태그 추가  -> <b>맛집
+//				StringBuffer sb = new StringBuffer();
+//				sb.append(search);
+//				sb.insert(index, "<b>");
+//				sb.insert(index + search.length() + 3, "</b>"); // <b>맛집</b>
+//				
+//				out.print( sb + "<br>");
+//			}
+			
+			//풀이2)
+//			if(line.contains(search)) {
+//				String[] words = line.split(search);
+//				out.print(words[0] + "<b>" + search + "</b>" + words[1] + "<br>");
+//			}
+			
+			//풀이3)
+			
+//			if(line.contains(search)) {
+//			line = line.replace(search, "<b>" + search + "</b>");
+//			out.print(line + "<br>");
+//			}
+//		}
+//		
+//		out.print("</body></html>");
 		
 		
 	}
+  }
 }
