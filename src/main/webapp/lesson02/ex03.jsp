@@ -32,6 +32,7 @@
 			<option>복숭아</option>
 			<option>딸기</option>
 			<option>포도</option>
+			<option>멜론</option>
 		</select><br><br>
 		
 		<button type="submit">제출</button>
