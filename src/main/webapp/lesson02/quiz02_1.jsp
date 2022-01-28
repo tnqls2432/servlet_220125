@@ -24,10 +24,10 @@
 	SimpleDateFormat sdf ; 
 
 	if(type.equals("time")){
-		// 시간 출력
+		// 시간을 출력
 		sdf = new SimpleDateFormat("현재 시간은 HH시 mm분 ss초 입니다."); 
 	} else{
-		// 날짜 출력
+		// 날짜를 출력
 		sdf = new SimpleDateFormat("오늘의 날짜는 yyyy년 MM월 dd일 입니다.");
 	}
 	
