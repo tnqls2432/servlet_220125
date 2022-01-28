@@ -17,7 +17,7 @@
 	int weight = Integer.parseInt(request.getParameter("height"));
 	int height = Integer.parseInt(request.getParameter("height"));
 	
-	// BMI = 몸무게 / ((키 / 100.0) * (키 / 100.0));
+	// BMI 계산 = 몸무게 / ((키 / 100.0) * (키 / 100.0));
 	double bmi =weight / ((height / 100.0)* (height / 100.0));
 	
 	String result = null;
