@@ -14,7 +14,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1>체격 조건 입력</h1>
+		<h2>체격 조건 입력</h2>
 		
 		<form method="get" action="/lesson02/quiz03_1.jsp">
 			<div class="d-flex">
