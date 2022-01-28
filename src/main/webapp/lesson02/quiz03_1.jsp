@@ -14,7 +14,7 @@
 </head>
 <body>
 <%
-	int weight = Integer.parseInt(request.getParameter("height"));
+	int weight = Integer.parseInt(request.getParameter("weight"));
 	int height = Integer.parseInt(request.getParameter("height"));
 	
 	// BMI 계산 = 몸무게 / ((키 / 100.0) * (키 / 100.0));
